@@ -7,7 +7,7 @@ function crypter(element) {
     for (var i = 0; i < messageClair.length; i++) {
         var indexLettreDansAlphabet = alphabet.indexOf(messageClair[i]);
         var indexLettreDecaleDansAlphabet = indexLettreDansAlphabet + decalage;
-        var lettreDecalee = alphabet[indexLettreDecaleDansAlphabet];
+        var lettreDecalee = alphabet[indexLettreDecaleDansAlphabet%26];
         messageCrypte.value += lettreDecalee;
     }
 
