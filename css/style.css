@@ -1,0 +1,22 @@
+main {
+    width: 70%;
+    margin: 7em auto;
+    display: flex;
+}
+
+textarea {
+    width: 50%;
+    height: 8em;
+    background-color:lightblue;
+}
+
+div {
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+}
+
+#crypter {
+    background-color:rgb(186, 218, 58);
+    color: black;
+}
